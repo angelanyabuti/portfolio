@@ -220,7 +220,7 @@
 				</div>
 			</div>
 			<div class="copyright">
-				<p>Copyright @ Angela. Made with by Easy Tutorials</p>
+				<p>&copy; <span id="currentYear"></span> Angela Nyabuti | All rights reserved.</p>
 			</div>
 		</div>
 		<script>
@@ -248,6 +248,11 @@
 			function closemenu() {
 				sidemenu.style.right = "-200px";
 			}
+		</script>
+		<!--Adding the current year to the footer-->
+		<script>
+			var currentYear = new Date().getFullYear();
+			document.getElementById('currentYear').innerText = currentYear;
 		</script>
 	</body>
 </html>
