@@ -18,10 +18,9 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    background: url(images/background.jpeg) center center/cover no-repeat;
     background-size: cover;
     background-position: center;
-    background: #101416;
 
 }
 .container{
@@ -78,6 +77,11 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    text-align: center;
+}
+.header-text a{
+    font-size: 20px;
+    margin-top: 10px;
 }
 .header-text h1{
     font-size: 60px;
