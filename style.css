@@ -280,18 +280,21 @@ nav ul li a:hover::after{
 }
 .contact-left{
     flex-basis: 35%;
-}
+justify-self: start;}
 .contact-right{
     flex-basis: 60%;
 }
 .contact-left p{
     margin-top: 30px;
+    text-align: left;
+    align-items: start;
 }
 .contact-left p i{
     color: #EAAA00;
     margin-left: 15px;
     font-size: 25px;
 }
+
 
 .social-icons a{
     text-decoration: none;
