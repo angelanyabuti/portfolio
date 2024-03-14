@@ -87,7 +87,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
 }
-.header-text h2 span{
+.header-text h3 span{
     color: #EAAA00;
 }
 /*about me*/
